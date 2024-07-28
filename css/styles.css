@@ -1,7 +1,5 @@
-/* 
-Debe tener 2 fuentes de Google Fonts (título y cuerpo),
-con cajas con fondo de colores: header, nav, section a la izquierda al 70%,
-aside a la derecha al 30% y footer.*/
+/*Paso 2:
+Añade al header un logo a la izquierda, un título y un subtítulo.*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
 
@@ -26,6 +24,34 @@ body {
 header {
     background-color: #4CAF50;
     padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.title-subtitle {
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0;
+    font-weight: 400;
 }
 
 nav {

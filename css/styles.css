@@ -1,5 +1,5 @@
-/*Paso 2:
-Añade al header un logo a la izquierda, un título y un subtítulo.*/
+/*Paso 3:
+Añade al nav 8 ítems de menú en línea.*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
 
@@ -57,6 +57,28 @@ h2 {
 nav {
     background-color: #2196F3;
     padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu a:hover {
+    text-decoration: underline;
 }
 
 .main-content {

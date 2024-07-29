@@ -1,5 +1,6 @@
-/*Paso 11:
-En pantallas pequeñas, la section y los asides son del 100% */
+/*Paso 12:
+En pantallas pequeñas, las imágenes de los articles pasan a ir encima y su título,
+subtítulo y texto debajo. */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
 
@@ -253,4 +254,9 @@ footer {
     aside {
         width: 100%; /* Ancho del 100% */
     }
+
+    /* Estilo de los artículos en pantallas pequeñas */
+    article {
+        flex-direction: column; /* Cambiar la dirección del flex a columna */
+    }    
 }

@@ -1,6 +1,6 @@
-/*Paso 8:
+/*Paso 9:
 
-En pantallas grandes, la web debe tener un padding de 20px a izquierda y derecha*/
+En pantallas medianas, los articles pasan a ir uno debajo de otro, y la section y el aside son del 50% */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
 
@@ -199,5 +199,24 @@ footer {
     /* Estilo del aside en pantallas grandes */
     aside {
         width: 40%; /* Ancho del 40% */
+    }
+}
+
+/* Media query para pantallas medianas */
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* Estilo de la sección principal en pantallas medianas */
+    section {
+        width: 50%; /* Ancho del 50% */
+    }
+
+    /* Estilo del aside en pantallas medianas */
+    aside {
+        width: 50%; /* Ancho del 50% */
+    }
+
+    /* Estilo de los artículos en pantallas medianas */
+    article {
+        width: 100%; /* Ancho del 100% */
+        display: block; /* Mostrar en bloque */
     }
 }

@@ -33,8 +33,9 @@ header {
     justify-content: center;
 }
 
+/* Estilo del logo */
 .logo {
-    height: 60px;
+    height: 60px; /* Altura del logo */
     margin-right: 20px;
 }
 
@@ -49,7 +50,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Fuente Roboto / sans-serif si en el navegador no está disponible*/
     color: #fff;
     margin: 0;
     font-weight: 400;
@@ -61,7 +62,7 @@ nav {
 }
 
 .menu {
-    list-style: none;
+    list-style: none; /* Sin estilo de lista */
     padding: 0;
     margin: 0;
     display: flex;
@@ -78,8 +79,10 @@ nav {
     font-weight: 700;
 }
 
+/* Efecto hover en los enlaces del menú */
 .menu a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+
 }
 
 .main-content {
@@ -89,7 +92,7 @@ nav {
 section {
     background-color: #FFC107;
     padding: 20px;
-    width: 70%;
+    width: 70%; /* Ancho de sección 70% */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -100,15 +103,15 @@ article {
     width: 48%;
     display: flex;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /** Aplica una sombra a un elemento. */
     border-radius: 8px;
-    overflow: hidden;
+    overflow: hidden; /* Oculta el contenido si el contenedor es más grande */
 }
 
 .article-img {
     width: 40%;
     height: auto;
-    object-fit: cover;
+    object-fit: cover; /* Adaptarse al tamaño completo del contenedor*/
 }
 
 .article-content {
@@ -136,6 +139,44 @@ aside {
     background-color: #FF5722;
     padding: 20px;
     width: 30%;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px; /* Bordes redondeados */
+}
+
+.search-bar button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 700; /* Peso de la fuente */
+    /* cursor: pointer;*/ /* Cursor de mano */
+}
+
+/* Estilo de los banners de anuncios */
+.banner {
+    background-color: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /** Aplica una sombra a un elemento. * 0 0: Desplaza la sombra 0px hacia la derecha y 0px hacia abajo. * 10px: Difumina la sombra en un radio de 10 píxeles. * rgba(0, 0, 0, 0.1): Establece el color de la sombra a negro con una opacidad del 10%.*/
+    border-radius: 8px;
+}
+
+/* Estilo de las imágenes de los banners */
+.banner img {
+    width: 100%; /* Ancho completo */
+    border-radius: 8px; /* Bordes redondeados */
 }
 
 footer {

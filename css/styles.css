@@ -13,6 +13,8 @@ body {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-color: #f0f0f0;
+    font-size: 40px; /* Tamaño base de fuente */
+    line-height: 1.5; /* Altura de línea */
 }
 
 .container {
@@ -23,7 +25,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #00afb9;
     padding: 20px;
 }
 
@@ -46,18 +48,22 @@ header {
 h1 {
     font-family: 'Lobster', cursive;
     color: #fff;
+    font-size: 2rem; /* Tamaño de fuente relativo */
+    line-height: 1.2;
     margin: 0;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif; /* Fuente Roboto / sans-serif si en el navegador no está disponible*/
     color: #fff;
+    font-size: 1.5rem; /* Tamaño de fuente relativo */
+    line-height: 1.3;
     margin: 0;
     font-weight: 400;
 }
 
 nav {
-    background-color: #2196F3;
+    background-color: #0081a7;
     padding: 10px;
 }
 
@@ -67,6 +73,7 @@ nav {
     margin: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .menu li {
@@ -77,6 +84,7 @@ nav {
     color: white;
     text-decoration: none;
     font-weight: 700;
+    font-size: 1rem; /* Tamaño de fuente relativo */
 }
 
 /* Efecto hover en los enlaces del menú */
@@ -90,7 +98,7 @@ nav {
 }
 
 section {
-    background-color: #FFC107;
+    background-color: #fed9b7;
     padding: 20px;
     width: 70%; /* Ancho de sección 70% */
     display: flex;
@@ -122,21 +130,24 @@ article {
 article h3 {
     margin-top: 0;
     font-family: 'Lobster', cursive;
+    font-size: 1.5rem; /* Tamaño de fuente relativo */
 }
 
 article h4 {
     margin: 5px 0;
     font-weight: 400;
     color: #666;
+    font-size: 1.2rem; /* Tamaño de fuente relativo */
 }
 
 article p {
     margin: 5px 0;
     color: #333;
+    font-size: 1rem; /* Tamaño de fuente relativo */
 }
 
 aside {
-    background-color: #FF5722;
+    background-color: #f07167;
     padding: 20px;
     width: 30%;
 }
@@ -176,11 +187,12 @@ aside {
 /* Estilo de las imágenes de los banners */
 .banner img {
     width: 100%; /* Ancho completo */
+    height: auto;
     border-radius: 8px; /* Bordes redondeados */
 }
 
 footer {
-    background-color: #607D8B;
+    background-color: #0081A7;
     padding: 10px;
     color: #fff; /* Color de texto blanco */
 }

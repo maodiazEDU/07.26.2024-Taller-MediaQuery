@@ -1,6 +1,6 @@
-/*Paso 4:
-Añade a la section 4 articles con foto a la izquierda, título, subtítulo y texto que se
-muestren en pantalla de dos en dos*/
+/*Paso 8:
+
+En pantallas grandes, la web debe tener un padding de 20px a izquierda y derecha*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
 
@@ -191,7 +191,7 @@ footer {
     .container{
         padding: 0 20px; /* Padding de 20px a izquierda y derecha */
     }
-    
+
     section {
         width: 60%; /* Ancho del 60% */
     }

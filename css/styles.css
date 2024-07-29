@@ -184,3 +184,16 @@ footer {
     padding: 10px;
     color: #fff; /* Color de texto blanco */
 }
+
+/* Media query para pantallas grandes */
+@media (min-width: 1200px) {
+    /* Estilo de la sección principal en pantallas grandes */
+    section {
+        width: 60%; /* Ancho del 60% */
+    }
+
+    /* Estilo del aside en pantallas grandes */
+    aside {
+        width: 40%; /* Ancho del 40% */
+    }
+}

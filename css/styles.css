@@ -1,6 +1,6 @@
-/*Paso 9:
+/*Paso 10:
 
-En pantallas medianas, los articles pasan a ir uno debajo de otro, y la section y el aside son del 50% */
+En pantallas pequeñas, el logo va encima centrado y el título y el subtítulo debajo (también centrados) */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
 
@@ -218,5 +218,40 @@ footer {
     article {
         width: 100%; /* Ancho del 100% */
         display: block; /* Mostrar en bloque */
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 767px) {
+    /* Estilo del encabezado en pantallas pequeñas */
+    header {
+        padding: 10px; /* Reducir padding en pantallas pequeñas */
+    }
+
+    /* Estilo del contenido del encabezado en pantallas pequeñas */
+    .header-content {
+        flex-direction: column; /* Cambiar la dirección del flex a columna */
+        align-items: center; /* Centrar el contenido horizontalmente */
+        justify-content: center; /* Centrar el contenido verticalmente */
+    }
+
+    /* Estilo del logo en pantallas pequeñas */
+    .logo {
+        margin-bottom: 10px; /* Espacio debajo del logo */
+    }
+
+    /* Estilo del título y subtítulo en pantallas pequeñas */
+    .title-subtitle {
+        text-align: center; /* Centrar el texto */
+    }
+
+    /* Estilo de la sección principal en pantallas pequeñas */
+    section {
+        width: 100%; /* Ancho del 100% */
+    }
+
+    /* Estilo del aside en pantallas pequeñas */
+    aside {
+        width: 100%; /* Ancho del 100% */
     }
 }

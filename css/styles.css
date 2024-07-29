@@ -2,7 +2,7 @@
 En pantallas pequeñas, las imágenes de los articles pasan a ir encima y su título,
 subtítulo y texto debajo. */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat&display=swap');
 
 body {
     margin: 0;
@@ -46,7 +46,7 @@ header {
 }
 
 h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', cursive;
     color: #fff;
     font-size: 2rem; /* Tamaño de fuente relativo */
     line-height: 1.2;
@@ -118,7 +118,7 @@ article {
 
 .article-img {
     width: 40%;
-    height: auto;
+    height: 40%; /*REVISAR ESTA PROPIEDAD*/
     object-fit: cover; /* Adaptarse al tamaño completo del contenedor*/
 }
 
@@ -129,7 +129,7 @@ article {
 
 article h3 {
     margin-top: 0;
-    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: 1.5rem; /* Tamaño de fuente relativo */
 }
 
@@ -172,7 +172,7 @@ aside {
     background-color: #4CAF50;
     color: white;
     font-weight: 700; /* Peso de la fuente */
-    /* cursor: pointer;*/ /* Cursor de mano */
+    cursor: pointer; /* Cursor de mano */
 }
 
 /* Estilo de los banners de anuncios */
@@ -195,6 +195,7 @@ footer {
     background-color: #0081A7;
     padding: 10px;
     color: #fff; /* Color de texto blanco */
+    font-size: 1rem; /* Tamaño de fuente relativo */
 }
 
 /* Media query para pantallas grandes */

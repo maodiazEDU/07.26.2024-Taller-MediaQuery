@@ -188,6 +188,10 @@ footer {
 /* Media query para pantallas grandes */
 @media (min-width: 1200px) {
     /* Estilo de la sección principal en pantallas grandes */
+    .container{
+        padding: 0 20px; /* Padding de 20px a izquierda y derecha */
+    }
+    
     section {
         width: 60%; /* Ancho del 60% */
     }
